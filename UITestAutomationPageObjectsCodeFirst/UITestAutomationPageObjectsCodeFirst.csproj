@@ -85,17 +85,25 @@
   <ItemGroup>
     <Folder Include="Assets\" />
     <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\TempPE\" />
     <Folder Include="PageObjects\StoreManager\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="bin\Debug\UITestAutomationPageObjectsCodeFirst.dll.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\UITestAutomationPageObjectsCodeFirst.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" />
     <Content Include="bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml" />
     <Content Include="bin\Debug\UITestAutomationPageObjectsCodeFirst.dll" />
     <Content Include="bin\Debug\UITestAutomationPageObjectsCodeFirst.pdb" />
+    <Content Include="obj\Debug\UITestAutomationPageObjectsCodeFirst.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\UITestAutomationPageObjectsCodeFirst.dll" />
+    <Content Include="obj\Debug\UITestAutomationPageObjectsCodeFirst.pdb" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

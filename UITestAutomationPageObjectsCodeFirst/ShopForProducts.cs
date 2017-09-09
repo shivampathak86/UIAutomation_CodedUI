@@ -30,7 +30,7 @@ namespace UITestAutomationPageObjects
         public void ShopForAlbumViaCategory()
         {
             BrowserWindow.CurrentBrowser = "Firefox";
-            var browserWindow = BrowserWindow.Launch(new Uri("http://localhost:26641/"));
+            var browserWindow = BrowserWindow.Launch(new Uri("http://localhost/MvcMusicStore_deploy"));
             HomePage siteHome = new HomePage(browserWindow);
             
             Assert.IsTrue(
@@ -49,7 +49,7 @@ namespace UITestAutomationPageObjects
         {
             Playback.PlaybackSettings.LoggerOverrideState = HtmlLoggerState.AllActionSnapshot;
 
-            var browserWindow = BrowserWindow.Launch(new Uri("http://localhost:26641/"));
+            var browserWindow = BrowserWindow.Launch(new Uri("http://localhost/MvcMusicStore_deploy"));
             
             HomePage siteHome = new HomePage(browserWindow);
             
