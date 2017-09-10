@@ -234,14 +234,7 @@
     <Fakes Include="Fakes\System.Web.Mvc.fakes" />
     <Content Include="FakesAssemblies\System.Web.Mvc.Fakes.fakesconfig" />
     <Content Include="FakesAssemblies\System.Web.Mvc.Fakes.messages" />
-    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
-    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <Content Include="obj\Debug\MvcMusicStore.csprojFakesResolveAssemblyReference.cache" />
-    <Content Include="obj\Debug\ResolveAssemblyReference.cache" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
-    <Content Include="obj\Debug\MvcMusicStore.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\MvcMusicStore.dll" />
-    <Content Include="obj\Debug\MvcMusicStore.pdb" />
     <Content Include="README.jQuery.vsdoc.txt" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
@@ -293,9 +286,7 @@
     <Content Include="Views\Store\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="obj\Debug\Fakes\swm\b\" />
-    <Folder Include="obj\Debug\Fakes\swm\o\" />
-    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\StoreManager\Index.cshtml" />
