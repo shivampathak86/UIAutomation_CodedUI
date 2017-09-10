@@ -29,3 +29,5 @@ C:\Users\patha\Documents\WorkSpace\VSTS\DevOpsDemo\MVCMusicStore_CODED UI\UIAuto
 C:\Users\patha\Documents\WorkSpace\VSTS\DevOpsDemo\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\obj\Debug\UITestAutomationPageObjectsCodeFirst.csprojResolveAssemblyReference.cache
 C:\Users\patha\Documents\WorkSpace\VSTS\DevOpsDemo\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\obj\Debug\UITestAutomationPageObjectsCodeFirst.dll
 C:\Users\patha\Documents\WorkSpace\VSTS\DevOpsDemo\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\obj\Debug\UITestAutomationPageObjectsCodeFirst.pdb
+C:\Users\patha\Documents\WorkSpace\VSTS\DevOpsDemo\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\WebDriver.dll
+C:\Users\patha\Documents\WorkSpace\VSTS\DevOpsDemo\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\WebDriver.xml

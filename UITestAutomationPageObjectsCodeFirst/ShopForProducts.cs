@@ -29,7 +29,7 @@ namespace UITestAutomationPageObjects
         [TestMethod]
         public void ShopForAlbumViaCategory()
         {
-            BrowserWindow.CurrentBrowser = "Firefox";
+            BrowserWindow.CurrentBrowser = "chrome";
             var browserWindow = BrowserWindow.Launch(new Uri("http://localhost/MvcMusicStore_deploy"));
             HomePage siteHome = new HomePage(browserWindow);
             
