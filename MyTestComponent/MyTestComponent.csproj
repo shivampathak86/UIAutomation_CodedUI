@@ -47,6 +47,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="MvcMusicStore.MyTestComponent.1.0.0.nupkg" />
     <None Include="MyTestComponent.nuspec" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="obj\Debug\MyTestComponent.csprojResolveAssemblyReference.cache" />
