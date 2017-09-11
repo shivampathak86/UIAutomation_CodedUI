@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITestAutomationPageObjects
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITestAutomationPageObjectsCodeFirst", "UITestAutomationPageObjectsCodeFirst\UITestAutomationPageObjectsCodeFirst.csproj", "{30EC8021-ECFE-4FAF-A4FD-1E938BC791F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTestComponent", "MyTestComponent\MyTestComponent.csproj", "{FCF441E7-104E-40CC-9FD3-1EA0E2833244}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{30EC8021-ECFE-4FAF-A4FD-1E938BC791F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30EC8021-ECFE-4FAF-A4FD-1E938BC791F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30EC8021-ECFE-4FAF-A4FD-1E938BC791F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCF441E7-104E-40CC-9FD3-1EA0E2833244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF441E7-104E-40CC-9FD3-1EA0E2833244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF441E7-104E-40CC-9FD3-1EA0E2833244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF441E7-104E-40CC-9FD3-1EA0E2833244}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
