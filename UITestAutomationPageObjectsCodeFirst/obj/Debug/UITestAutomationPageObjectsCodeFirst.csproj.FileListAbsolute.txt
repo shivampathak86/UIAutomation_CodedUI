@@ -31,3 +31,26 @@ C:\Users\patha\Documents\WorkSpace\VSTS\DevOpsDemo\MVCMusicStore_CODED UI\UIAuto
 C:\Users\patha\Documents\WorkSpace\VSTS\DevOpsDemo\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\obj\Debug\UITestAutomationPageObjectsCodeFirst.pdb
 C:\Users\patha\Documents\WorkSpace\VSTS\DevOpsDemo\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\WebDriver.dll
 C:\Users\patha\Documents\WorkSpace\VSTS\DevOpsDemo\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\WebDriver.xml
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\UITestAutomationPageObjectsCodeFirst.dll.config
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\UITestAutomationPageObjectsCodeFirst.dll
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\UITestAutomationPageObjectsCodeFirst.pdb
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\EntityFramework.dll
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\Microsoft.AI.Agent.Intercept.dll
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\WebDriver.dll
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\EntityFramework.xml
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\WebDriver.xml
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\obj\Debug\UITestAutomationPageObjectsCodeFirst.dll
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\obj\Debug\UITestAutomationPageObjectsCodeFirst.pdb
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\obj\Debug\UITestAutomationPageObjectsCodeFirst.csprojResolveAssemblyReference.cache
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\System.Web.Helpers.dll
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\System.Web.Mvc.dll
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\System.Web.Razor.dll
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\System.Web.WebPages.dll
+C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\System.Web.WebPages.Razor.dll
