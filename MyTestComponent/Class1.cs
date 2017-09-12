@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace MyTestComponent
 {
     public class Class1
-    {
+
+    {// added minor change
     }
 }
