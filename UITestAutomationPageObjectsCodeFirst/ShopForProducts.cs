@@ -53,7 +53,7 @@ namespace UITestAutomationPageObjects
             
             HomePage siteHome = new HomePage(browserWindow);
             
-            Assert.IsFalse(
+            Assert.IsTrue(
                 siteHome.Selectcategory("Rock")
                 .SelectProduct("Greatest Hits I")
                 .AddItemToCart()
