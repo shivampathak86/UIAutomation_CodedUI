@@ -8,6 +8,6 @@ namespace MyTestComponent
 {
     public class Class1
 
-    {// added minor change
+    {// added minor change.
     }
 }
