@@ -16,6 +16,7 @@ namespace UITestAutomationPageObjectsCodeFirst.PageObjects.Home
             : base(browserWindow)
         {
         }
+        // added comment
 
         public StoreDetail SelectProduct(string productName)
         {
