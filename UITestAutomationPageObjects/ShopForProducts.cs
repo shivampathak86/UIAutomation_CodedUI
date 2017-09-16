@@ -30,7 +30,7 @@ namespace UITestAutomationPageObjects
         [TestMethod]
         public void ShopForAlbumViaCategoryUsingMaps()
         {
-            var browserWindow = BrowserWindow.Launch(new Uri("http://localhost/MvcMusicStore_deploy"));
+            var browserWindow = BrowserWindow.Launch(new Uri("http://192.168.1.2/"));
             HomePage siteHome = new HomePage();
 
             Assert.IsTrue(
