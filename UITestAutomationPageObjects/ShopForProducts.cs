@@ -31,7 +31,7 @@ namespace UITestAutomationPageObjects
         {
             if(!Playback.IsInitialized)
             Playback.Initialize();
-            var browserWindow = BrowserWindow.Launch(new Uri("http://192.168.1.3:80"));
+            var browserWindow = BrowserWindow.Launch(new Uri("http://localhost:26641/"));
         }
 
         [TestMethod]

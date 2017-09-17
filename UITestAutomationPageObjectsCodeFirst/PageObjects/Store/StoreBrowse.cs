@@ -25,9 +25,13 @@
         public StoreDetail SelectProduct(string productName)
         {
             HtmlControl productList = new HtmlControl(_browserWindow);
-            productList.SearchProperties.Add(HtmlControl.PropertyNames.Id, "album-list");
+            //productList.SearchConfigurations.Add(SearchConfiguration.AlwaysSearch)
+            
+            productList.SearchProperties[HtmlControl.PropertyNames.Id]="album-list";
+            productList.WaitForControlReady();
+            productList.FilterProperties[HtmlCustom.PropertyNames.ControlDefinition] = "id=\"album - list\"";
             HtmlHyperlink productLink = new HtmlHyperlink(productList);
-            productLink.SearchConfigurations.Add(SearchConfiguration.AlwaysSearch);
+            //productLink.SearchConfigurations.Add(SearchConfiguration.AlwaysSearch);
             productLink.SearchProperties.Add(HtmlHyperlink.PropertyNames.InnerText, productName, PropertyExpressionOperator.Contains);
             productLink.FilterProperties.Add(HtmlHyperlink.PropertyNames.ClassName,"HtmlHyperlink");
             productLink.FilterProperties.Add(HtmlHyperlink.PropertyNames.ControlType, "Hyperlink");

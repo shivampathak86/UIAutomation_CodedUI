@@ -26,10 +26,17 @@ using Microsoft.VisualStudio.TestTools.UITesting.HtmlControls;
         public ShoppingCart AddItemToCart()
 
         {
-            //Point location = GetAddToCartLink().BoundingRectangle.Location;
-            //location.Offset(GetAddToCartLink().BoundingRectangle.Width / 2, GetAddToCartLink().BoundingRectangle.Height / 2);
-            //var AddItemLink = GetAddToCartLink();
-            Mouse.Click(GetAddToCartLink());
+            try
+            {
+                var addItemlink = GetAddToCartLink();
+                addItemlink.WaitForControlCondition(x =>x.TryFind());       
+                Mouse.Click(addItemlink);
+            }
+            
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             return new ShoppingCart(_browserWindow);
         }
 
