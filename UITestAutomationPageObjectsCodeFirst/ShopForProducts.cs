@@ -30,7 +30,7 @@ namespace UITestAutomationPageObjects
         public void ShopForAlbumViaCategory()
         {
             BrowserWindow.CurrentBrowser = "chrome";
-            var browserWindow = BrowserWindow.Launch(new Uri("http://localhost:26641/"));
+            var browserWindow = BrowserWindow.Launch(new Uri("http://192.168.1.3:80"));
             browserWindow.Maximized = true;
             HomePage siteHome = new HomePage(browserWindow);
             
@@ -53,7 +53,7 @@ namespace UITestAutomationPageObjects
             BrowserWindow.ClearCache();
             BrowserWindow.ClearCookies();
 
-           var browserWindow = BrowserWindow.Launch(new Uri("http://localhost:26641/"));
+           var browserWindow = BrowserWindow.Launch(new Uri("http://192.168.1.3:80"));
             
 
 
@@ -61,18 +61,18 @@ namespace UITestAutomationPageObjects
             
             Assert.IsTrue(
                 siteHome.Selectcategory("Rock")
-                .SelectProduct("Greatest Hits I")
+                .SelectProduct("The Best Of Men At Work")
                 .AddItemToCart()
                 .NavigateHome()
                 .Selectcategory("Rock")
-                .SelectProduct("Greatest Hits II")
+                .SelectProduct("For Those About To Rock We Salute You")
                 .AddItemToCart()
                 .NavigateHome()
                 .Selectcategory("Rock")
-                .SelectProduct("Greatest Hits")
+                .SelectProduct("Let There Be Rock")
                 .AddItemToCart()
-                .RemoveItemFromcart("Greatest Hits")
-                .IsProductInCart("Greatest Hits")
+                .RemoveItemFromcart("The Best Of Men At Work")
+                .IsProductInCart("The Best Of Men At Work")
                 , "expected Greatest Hits to be removed from Cart");
         }
         #region Additional test attributes

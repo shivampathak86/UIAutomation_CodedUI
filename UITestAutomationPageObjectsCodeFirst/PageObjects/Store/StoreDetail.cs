@@ -36,9 +36,10 @@ using Microsoft.VisualStudio.TestTools.UITesting.HtmlControls;
         private HtmlHyperlink GetAddToCartLink()
         {
             HtmlHyperlink CartHyperlink = new HtmlHyperlink(_browserWindow);
-            CartHyperlink.SearchProperties.Add(HtmlHyperlink.PropertyNames.FriendlyName, "Add to cart", PropertyExpressionOperator.Contains);
-            CartHyperlink.FilterProperties.Add(HtmlHyperlink.PropertyNames.InnerText, "Add to cart", PropertyExpressionOperator.Contains);
-           // CategoryList.FilterProperties.Add(HtmlHyperlink.PropertyNames.ControlDefinition, "href=\" / ShoppingCart / AddToCart / 75/\" length=\"0\"");
+            CartHyperlink.SearchProperties.Add(HtmlHyperlink.PropertyNames.FriendlyName,"Add to cart");
+            CartHyperlink.FilterProperties.Add(HtmlHyperlink.PropertyNames.ControlType,"Hyperlink");
+            CartHyperlink.FilterProperties.Add(HtmlHyperlink.PropertyNames.ClassName, "HtmlHyperlink");
+            // CategoryList.FilterProperties.Add(HtmlHyperlink.PropertyNames.ControlDefinition, "href=\" / ShoppingCart / AddToCart / 75/\" length=\"0\"");
             CartHyperlink.Find();
             return CartHyperlink;
         }
