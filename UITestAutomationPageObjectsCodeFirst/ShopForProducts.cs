@@ -50,7 +50,11 @@ namespace UITestAutomationPageObjects
         {
             Playback.PlaybackSettings.LoggerOverrideState = HtmlLoggerState.AllActionSnapshot;
 
-            var browserWindow = BrowserWindow.Launch(new Uri("http://localhost:26641/"));
+            BrowserWindow.ClearCache();
+            BrowserWindow.ClearCookies();
+
+           var browserWindow = BrowserWindow.Launch(new Uri("http://localhost:26641/"));
+            
 
 
             HomePage siteHome = new HomePage(browserWindow);

@@ -26,11 +26,18 @@ namespace UITestAutomationPageObjects
         public ShopForProducts()
         {
         }
+        [TestInitialize]
+        public void Initialize()
+        {
+            if(!Playback.IsInitialized)
+            Playback.Initialize();
+            var browserWindow = BrowserWindow.Launch(new Uri("http://localhost:26641/"));
+        }
 
         [TestMethod]
         public void ShopForAlbumViaCategoryUsingMaps()
         {
-            var browserWindow = BrowserWindow.Launch(new Uri("http://localhost:26641/"));
+           // var browserWindow = BrowserWindow.Launch(new Uri("http://localhost:26641/"));
             HomePage siteHome = new HomePage();
 
             Assert.IsTrue(
@@ -44,7 +51,13 @@ namespace UITestAutomationPageObjects
 
         }
 
-        
+        [TestCleanup]
+        public void cleanup()
+        {
+            if (Playback.IsInitialized)
+                Playback.Cleanup();
+
+        }
         
 
         #region Additional test attributes

@@ -57,10 +57,10 @@ namespace UITestAutomationPageObjects.PageObjects.Shared
             // find the hyperlink in the list of categories
             var categoriesList = this.CategoryList;
             HtmlHyperlink categoryHyperlink = new HtmlHyperlink(categoriesList);
-            categoryHyperlink.SearchProperties[HtmlHyperlink.PropertyNames.InnerText] = categoryName;
-            Point CategoryHyperlink = categoryHyperlink.BoundingRectangle.Location;
-            CategoryHyperlink.Offset(categoryHyperlink.BoundingRectangle.Width / 2, categoryHyperlink.BoundingRectangle.Height / 2);
-            Mouse.Click(CategoryHyperlink);   
+          categoryHyperlink.SearchProperties[HtmlHyperlink.PropertyNames.InnerText] = categoryName;
+            //Point CategoryHyperlink = categoryHyperlink.BoundingRectangle.Location;
+            //CategoryHyperlink.Offset(categoryHyperlink.BoundingRectangle.Width / 2, categoryHyperlink.BoundingRectangle.Height / 2);
+            Mouse.Click(categoryHyperlink);   
             //var categoryHyperlink = new HtmlHyperlink(categoriesList);
           
             return new StoreBrowse(_browserWindow);
