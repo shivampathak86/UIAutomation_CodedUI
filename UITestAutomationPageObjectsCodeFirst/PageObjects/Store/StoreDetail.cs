@@ -24,7 +24,10 @@ using Microsoft.VisualStudio.TestTools.UITesting.HtmlControls;
         {
         }
         public ShoppingCart AddItemToCart()
+
         {
+            //Point location = GetAddToCartLink().BoundingRectangle.Location;
+            //location.Offset(GetAddToCartLink().BoundingRectangle.Width / 2, GetAddToCartLink().BoundingRectangle.Height / 2);
             var AddItemLink = GetAddToCartLink();
             Mouse.Click(AddItemLink);
             return new ShoppingCart(_browserWindow);
@@ -33,16 +36,18 @@ using Microsoft.VisualStudio.TestTools.UITesting.HtmlControls;
         private HtmlHyperlink GetAddToCartLink()
         {
             HtmlHyperlink CartHyperlink = new HtmlHyperlink(_browserWindow);
-            CartHyperlink.SearchProperties[HtmlHyperlink.PropertyNames.InnerText] = "Add to cart";
+            CartHyperlink.SearchProperties.Add(HtmlHyperlink.PropertyNames.FriendlyName, "Add to cart", PropertyExpressionOperator.Contains);
+            CartHyperlink.FilterProperties.Add(HtmlHyperlink.PropertyNames.InnerText, "Add to cart", PropertyExpressionOperator.Contains);
+           // CategoryList.FilterProperties.Add(HtmlHyperlink.PropertyNames.ControlDefinition, "href=\" / ShoppingCart / AddToCart / 75/\" length=\"0\"");
             CartHyperlink.Find();
             return CartHyperlink;
         }
 
-        public HtmlControl Header
+        public HtmlDiv Header
         {
             get{
-                HtmlControl Header = new HtmlControl(_browserWindow);
-                Header.SearchProperties.Add(HtmlControl.PropertyNames.TagName, "h2");
+                HtmlDiv Header = new HtmlDiv(_browserWindow);
+                Header.SearchProperties.Add(HtmlControl.PropertyNames.Id, "album-details");
                 Header.Find();
                 return Header;
             }

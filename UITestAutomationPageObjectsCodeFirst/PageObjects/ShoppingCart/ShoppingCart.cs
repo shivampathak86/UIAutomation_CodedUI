@@ -61,13 +61,26 @@ namespace UITestAutomationPageObjectsCodeFirst.PageObjects.ShoppingCart
         {
             get
             {
-                HtmlTable shoppingCartTable = new HtmlTable(_browserWindow);
+                HtmlTable shoppingCartTable = new HtmlTable(this.Main);
+                
                 shoppingCartTable.SearchProperties.Add(HtmlTable.PropertyNames.InnerText, "Album Name", PropertyExpressionOperator.Contains);
-               // shoppingCartTable.DrawHighlight();
+                shoppingCartTable.SearchConfigurations.Add(SearchConfiguration.AlwaysSearch);
+                shoppingCartTable.FilterProperties.Add(HtmlTable.PropertyNames.ControlType, "Table");
+                shoppingCartTable.FilterProperties.Add(HtmlTable.PropertyNames.InnerText, "Price (each)", PropertyExpressionOperator.Contains);
+                 //shoppingCartTable.DrawHighlight();
                 return shoppingCartTable;
             }
         }
 
+        private HtmlDiv Main
+        {
+            get
+            {
+                HtmlDiv main = new HtmlDiv(_browserWindow);
+                main.SearchProperties.Add(HtmlDiv.PropertyNames.Id, "main", PropertyExpressionOperator.EqualTo);
+                return main;
+            }
+        }
         private HtmlHyperlink GetCheckOutHyperlink()
         {
             HtmlHyperlink checkout = new HtmlHyperlink(_browserWindow);

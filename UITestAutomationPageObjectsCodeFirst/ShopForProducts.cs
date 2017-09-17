@@ -30,7 +30,8 @@ namespace UITestAutomationPageObjects
         public void ShopForAlbumViaCategory()
         {
             BrowserWindow.CurrentBrowser = "chrome";
-            var browserWindow = BrowserWindow.Launch(new Uri("http://192.168.1.2/"));
+            var browserWindow = BrowserWindow.Launch(new Uri("http://localhost:26641/"));
+            browserWindow.Maximized = true;
             HomePage siteHome = new HomePage(browserWindow);
             
             Assert.IsTrue(
@@ -45,12 +46,13 @@ namespace UITestAutomationPageObjects
 
 
         [TestMethod]
-        public void CheckIfItemIsPlacedInShoppingCart()
+        public void CheckIfItemIsPlaxcedInShoppingCart()
         {
             Playback.PlaybackSettings.LoggerOverrideState = HtmlLoggerState.AllActionSnapshot;
 
-            var browserWindow = BrowserWindow.Launch(new Uri("http://192.168.1.2/"));
-            
+            var browserWindow = BrowserWindow.Launch(new Uri("http://localhost:26641/"));
+
+
             HomePage siteHome = new HomePage(browserWindow);
             
             Assert.IsTrue(

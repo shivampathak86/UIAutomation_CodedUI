@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UITesting.HtmlControls;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,7 +27,9 @@ namespace UITestAutomationPageObjects.PageObjects.Shared
         {
             var homeHyperlink = new HtmlHyperlink(_browserWindow);
             homeHyperlink.SearchProperties[HtmlHyperlink.PropertyNames.Id] = "current";
-            Mouse.Click(homeHyperlink);
+            Point ClickonHomeButton = homeHyperlink.BoundingRectangle.Location;
+            ClickonHomeButton.Offset(homeHyperlink.BoundingRectangle.Width / 2, homeHyperlink.BoundingRectangle.Height / 2);
+            Mouse.Click(ClickonHomeButton);
             return new HomePage(_browserWindow);
         }
 
@@ -53,9 +56,13 @@ namespace UITestAutomationPageObjects.PageObjects.Shared
         {
             // find the hyperlink in the list of categories
             var categoriesList = this.CategoryList;
-            var categoryHyperlink = new HtmlHyperlink(categoriesList);
-            categoryHyperlink.SearchProperties.Add(HtmlHyperlink.PropertyNames.InnerText, categoryName, PropertyExpressionOperator.Contains);
-            Mouse.Click(categoryHyperlink);
+            HtmlHyperlink categoryHyperlink = new HtmlHyperlink(categoriesList);
+            categoryHyperlink.SearchProperties[HtmlHyperlink.PropertyNames.InnerText] = categoryName;
+            Point CategoryHyperlink = categoryHyperlink.BoundingRectangle.Location;
+            CategoryHyperlink.Offset(categoryHyperlink.BoundingRectangle.Width / 2, categoryHyperlink.BoundingRectangle.Height / 2);
+            Mouse.Click(CategoryHyperlink);   
+            //var categoryHyperlink = new HtmlHyperlink(categoriesList);
+          
             return new StoreBrowse(_browserWindow);
         }
 
