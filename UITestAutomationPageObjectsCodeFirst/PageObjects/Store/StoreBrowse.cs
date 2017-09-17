@@ -27,7 +27,7 @@
             HtmlControl productList = new HtmlControl(_browserWindow);
             productList.SearchProperties.Add(HtmlControl.PropertyNames.Id, "album-list");
             HtmlHyperlink productLink = new HtmlHyperlink(productList);
-            _browserWindow.SearchConfigurations.Add(SearchConfiguration.AlwaysSearch);
+            productLink.SearchConfigurations.Add(SearchConfiguration.AlwaysSearch);
             productLink.SearchProperties.Add(HtmlHyperlink.PropertyNames.InnerText, productName, PropertyExpressionOperator.Contains);
             productLink.FilterProperties.Add(HtmlHyperlink.PropertyNames.ClassName,"HtmlHyperlink");
             productLink.FilterProperties.Add(HtmlHyperlink.PropertyNames.ControlType, "Hyperlink");

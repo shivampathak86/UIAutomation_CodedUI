@@ -28,15 +28,15 @@ using Microsoft.VisualStudio.TestTools.UITesting.HtmlControls;
         {
             //Point location = GetAddToCartLink().BoundingRectangle.Location;
             //location.Offset(GetAddToCartLink().BoundingRectangle.Width / 2, GetAddToCartLink().BoundingRectangle.Height / 2);
-            var AddItemLink = GetAddToCartLink();
-            Mouse.Click(AddItemLink);
+            //var AddItemLink = GetAddToCartLink();
+            Mouse.Click(GetAddToCartLink());
             return new ShoppingCart(_browserWindow);
         }
 
         private HtmlHyperlink GetAddToCartLink()
         {
             HtmlHyperlink CartHyperlink = new HtmlHyperlink(_browserWindow);
-            CartHyperlink.SearchProperties.Add(HtmlHyperlink.PropertyNames.FriendlyName,"Add to cart");
+            CartHyperlink.SearchProperties[HtmlHyperlink.PropertyNames.InnerText]="Add to cart";
             CartHyperlink.FilterProperties.Add(HtmlHyperlink.PropertyNames.ControlType,"Hyperlink");
             CartHyperlink.FilterProperties.Add(HtmlHyperlink.PropertyNames.ClassName, "HtmlHyperlink");
             // CategoryList.FilterProperties.Add(HtmlHyperlink.PropertyNames.ControlDefinition, "href=\" / ShoppingCart / AddToCart / 75/\" length=\"0\"");
