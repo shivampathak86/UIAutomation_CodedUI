@@ -3,39 +3,39 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "components_AppInsight_name": {
-            "defaultValue": "AppInsight",
+            //"defaultValue": "AppInsight",
             "type": "String"
         },
         "availabilitySets_Demoset_name": {
-            "defaultValue": "Demoset",
+           // "defaultValue": "Demoset",
             "type": "String"
         },
         "virtualMachines_WinServer_01_name": {
-            "defaultValue": "WinServer-01",
+           // "defaultValue": "WinServer-01",
             "type": "String"
         },
         "publicIPAddresses_TFSMachine_name": {
-            "defaultValue": "TFSMachine",
+            //"defaultValue": "TFSMachine",
             "type": "String"
         },
         "networkInterfaces_winserver_01287_name": {
-            "defaultValue": "winserver-01287",
+           // "defaultValue": "winserver-01287",
             "type": "String"
         },
         "virtualNetworks_TFSResourcegroup_vnet_name": {
-            "defaultValue": "TFSResourcegroup-vnet",
+           // "defaultValue": "TFSResourcegroup-vnet",
             "type": "String"
         },
         "networkSecurityGroups_WinServer_01_nsg_name": {
-            "defaultValue": "WinServer-01-nsg",
+            //"defaultValue": "WinServer-01-nsg",
             "type": "String"
         },
         "storageAccounts_tfsresourcegroupdiag351_name": {
-            "defaultValue": "tfsresourcegroupdiag351",
+           // "defaultValue": "tfsresourcegroupdiag351",
             "type": "String"
         },
         "alertrules_Failure_Anomalies___AppInsight_name": {
-            "defaultValue": "Failure Anomalies - AppInsight",
+            //"defaultValue": "Failure Anomalies - AppInsight",
             "type": "String"
         },
         "subnets_default_name": {
@@ -43,23 +43,23 @@
             "type": "String"
         },
         "securityRules_TFSFTP_name": {
-            "defaultValue": "TFSFTP",
+           // "defaultValue": "TFSFTP",
             "type": "String"
         },
         "disks_WinServer_01_OsDisk_1_825357e64f5343b9aa91eee4106079c7_name": {
-            "defaultValue": "WinServer-01_OsDisk_1_825357e64f5343b9aa91eee4106079c7",
+            //"defaultValue": "WinServer-01_OsDisk_1_825357e64f5343b9aa91eee4106079c7",
             "type": "String"
         },
         "securityRules_WINRMHTTP_name": {
-            "defaultValue": "WINRMHTTP",
+           // "defaultValue": "WINRMHTTP",
             "type": "String"
         },
         "securityRules_WINRMHTTPS_name": {
-            "defaultValue": "WINRMHTTPS",
+          //  "defaultValue": "WINRMHTTPS",
             "type": "String"
         },
         "securityRules_default_allow_rdp_name": {
-            "defaultValue": "default-allow-rdp",
+           // "defaultValue": "default-allow-rdp",
             "type": "String"
         }
     },

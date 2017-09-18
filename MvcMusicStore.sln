@@ -16,6 +16,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITestAutomationPageObjects
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTestComponent", "MyTestComponent\MyTestComponent.csproj", "{FCF441E7-104E-40CC-9FD3-1EA0E2833244}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Provisioning", "Provisioning", "{BF04C26F-7DC4-4BC6-AE59-48CDEFAFCEDA}"
+	ProjectSection(SolutionItems) = preProject
+		Provisioning\deploy.ps1 = Provisioning\deploy.ps1
+		Provisioning\deploy.sh = Provisioning\deploy.sh
+		Provisioning\deployer.rb = Provisioning\deployer.rb
+		Provisioning\DeploymentHelper.cs = Provisioning\DeploymentHelper.cs
+		Provisioning\parameters.json = Provisioning\parameters.json
+		Provisioning\template.json = Provisioning\template.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

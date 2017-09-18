@@ -6,14 +6,14 @@
             "value": DemoAppInsigh
         },
         "availabilitySets_Demoset_name": {
-            "value": null
+            "value": Demoset
         },
         "virtualMachines_WinServer_01_name": {
             "value": DevOpsDemoWinVM
         },
         "publicIPAddresses_TFSMachine_name": {
             "value": DemoMyVm
-        },
+        },      
         "networkInterfaces_winserver_01287_name": {
             "value": DemoWinserver
         },
@@ -27,16 +27,16 @@
             "value": Demostorage
         },
         "alertrules_Failure_Anomalies___AppInsight_name": {
-            "value": null
+            "value": Demorules
         },
         "subnets_default_name": {
-            "value": null
+            "value": default
         },
         "securityRules_TFSFTP_name": {
             "value": DemoFTP
         },
         "disks_WinServer_01_OsDisk_1_825357e64f5343b9aa91eee4106079c7_name": {
-            "value": null
+            "value": Demodisk
         },
         "securityRules_WINRMHTTP_name": {
             "value": demohttp
