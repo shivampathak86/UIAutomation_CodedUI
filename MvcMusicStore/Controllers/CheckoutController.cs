@@ -7,7 +7,8 @@ namespace MvcMusicStore.Controllers
 {
     [Authorize]
     public class CheckoutController : Controller
-    {
+    { 
+        //added  comment
         MusicStoreEntities storeDB = new MusicStoreEntities();
         const string PromoCode = "FREE";
 
