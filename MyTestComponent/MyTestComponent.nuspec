@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MvcMusicStore.MyTestComponent</id>
+    <version>$version$</version>
+    <title>MyTestComponent</title>
+    <authors>Shivam</authors>
+    <owners>Shivam</owners>
+    <licenseUrl>https://github.com/shivampathak86/UIAutomation_CodedUI</licenseUrl>
+    <projectUrl>https://github.com/shivampathak86/UIAutomation_CodedUI</projectUrl>
+    <iconUrl>https://github.com/shivampathak86/UIAutomation_CodedUI</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Sample package for testing Nuget package</description>
+    <releaseNotes>intial package.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>My Test Component</tags>
+  </metadata>
+  <files>
+    <file src="bin/debug/MyTestComponent.dll" target="lib/net40"/>
+  </files>
+</package>

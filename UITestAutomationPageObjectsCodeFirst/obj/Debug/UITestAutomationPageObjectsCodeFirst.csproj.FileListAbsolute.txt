@@ -54,3 +54,20 @@ C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst
 C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\System.Web.WebPages.Deployment.dll
 C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\System.Web.WebPages.dll
 C:\Users\CAI\Documents\WorkSpace\MVCGitDemo\UITestAutomationPageObjectsCodeFirst\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\patha\Documents\WorkSpace\GitHub\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\EntityFramework.dll
+C:\Users\patha\Documents\WorkSpace\GitHub\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\patha\Documents\WorkSpace\GitHub\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\patha\Documents\WorkSpace\GitHub\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\Microsoft.AI.Agent.Intercept.dll
+C:\Users\patha\Documents\WorkSpace\GitHub\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\patha\Documents\WorkSpace\GitHub\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\patha\Documents\WorkSpace\GitHub\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\System.Web.Helpers.dll
+C:\Users\patha\Documents\WorkSpace\GitHub\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\System.Web.Mvc.dll
+C:\Users\patha\Documents\WorkSpace\GitHub\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\System.Web.Razor.dll
+C:\Users\patha\Documents\WorkSpace\GitHub\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\patha\Documents\WorkSpace\GitHub\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\System.Web.WebPages.dll
+C:\Users\patha\Documents\WorkSpace\GitHub\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\patha\Documents\WorkSpace\GitHub\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\WebDriver.dll
+C:\Users\patha\Documents\WorkSpace\GitHub\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\EntityFramework.xml
+C:\Users\patha\Documents\WorkSpace\GitHub\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\patha\Documents\WorkSpace\GitHub\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\patha\Documents\WorkSpace\GitHub\MVCMusicStore_CODED UI\UIAutomation_CodedUI\UITestAutomationPageObjectsCodeFirst\bin\Debug\WebDriver.xml
